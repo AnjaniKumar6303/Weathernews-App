@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "WeatherNewsApp",
+    "slug": "WeatherNewsApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "permissions": [
+          "ACCESS_FINE_LOCATION",
+          "ACCESS_COARSE_LOCATION"
+        ],
+      "package": "com.anjanikumar.weathernewsapp",
+      "permissions": []
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anjanikumar12.WeatherNewsApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc9b3dcb-b00e-4591-9be6-722bc8720a6e"
+      }
+    }
+  }
+}
